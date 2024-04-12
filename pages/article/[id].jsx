@@ -1,3 +1,7 @@
+export default function Article() {
+  return null;
+}
+
 /* import { useContext, useState } from "react";
 import { BookMarkContext } from "@/BookMarkContext";
 
