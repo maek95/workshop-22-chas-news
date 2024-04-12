@@ -118,7 +118,8 @@ export default function CategoryPage({ news }) {
             >
               <Link
                 className="text-black no-underline hover:underline dark:text-white"
-                href={`/article/${article.category[0]}/${article.article_id}`}
+                //href={`/article/${article.category[0]}/${article.article_id}`}
+                href={"#"}
               >
                 <h2>{article.title}</h2>
               </Link>

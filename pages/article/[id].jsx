@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+/* import { useContext, useState } from "react";
 import { BookMarkContext } from "@/BookMarkContext";
 
 const myAPI_KEY = process.env.idAPI_KEY;
@@ -223,4 +223,4 @@ export default function Article({ article }) {
       )}
     </div>
   );
-}
+} */

@@ -172,7 +172,8 @@ export default function BookMarks({
                 </div>
                 <Link
                   className="no-underline hover:underline hover:text-black dark:hover:text-white"
-                  href={`/article/${article.category[0]}/${article.article_id}`}
+                  //href={`/article/${article.category[0]}/${article.article_id}`}
+                  href={"#"}
                 >
                   <div className="flex gap-4 items-end">
                     <div className="h-20 w-28 overflow-hidden ">

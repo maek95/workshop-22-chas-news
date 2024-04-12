@@ -3,7 +3,7 @@ import { bus, h2 } from "fontawesome";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-const myAPI_KEY = process.env.myAPI_KEY2;
+const myAPI_KEY = process.env.indexAPI_KEY;
 
 // Define a cache object to store the fetched data
 let cache = {
@@ -200,7 +200,8 @@ console.log("techNews:", techNews.length);
 
                       <Link
                         className="no-underline"
-                        href={`/article/${article.category[0]}/${article.article_id}`}
+                        //href={`/article/${article.category[0]}/${article.article_id}`}
+                        href={"#"}
                         passHref
                       >
                         <h2
@@ -249,7 +250,8 @@ console.log("techNews:", techNews.length);
                     >
                       <Link
                         className="no-underline"
-                        href={`/article/${article.category[0]}/${article.article_id}`}
+                        //href={`/article/${article.category[0]}/${article.article_id}`}
+                        href={"#"}
                         passHref
                       >
                         <h2
@@ -314,7 +316,8 @@ console.log("techNews:", techNews.length);
                     )}
                     <Link
                       className="no-underline"
-                      href={`/article/${article.category[0]}/${article.article_id}`}
+                      //href={`/article/${article.category[0]}/${article.article_id}`}
+                      href={"#"}
                     >
                       <h2
                         className={`text-black dark:text-white text-2xl ${
@@ -374,7 +377,8 @@ console.log("techNews:", techNews.length);
                     )}
                     <Link
                       className="no-underline"
-                      href={`/article/${article.category[0]}/${article.article_id}`}
+                     // href={`/article/${article.category[0]}/${article.article_id}`}
+                     href={"#"}
                     >
                       <h2
                         className={`text-black dark:text-white text-2xl ${
@@ -434,7 +438,8 @@ console.log("techNews:", techNews.length);
                     )}
                     <Link
                       className="no-underline"
-                      href={`/article/${article.category[0]}/${article.article_id}`}
+                     // href={`/article/${article.category[0]}/${article.article_id}`}
+                     href={"#"}
                     >
                       <h2
                         className={`text-black dark:text-white text-2xl ${
